@@ -9,6 +9,8 @@ import Samu from "../components/Call/15";
 import Malentendants from "../components/Call/114";
 
 export default function Home() {
+
+  
   return (
     <div className={styles.container}>
       <Head>
@@ -20,6 +22,7 @@ export default function Home() {
 
       <main className={styles.main}>
         <div className="phlav_grid">
+
           <div className="div_1">
           <Image
       src="/france_flag.png"

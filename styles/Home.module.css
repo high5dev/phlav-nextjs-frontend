@@ -5,7 +5,7 @@
 
 .main {
   display: block;
-  padding: 0 16px;
+  padding: 0 ;
 }
 
 .footer {
@@ -24,27 +24,24 @@
   background-color: #0B2740;
   padding: 24px;
   text-align: center;
-font-weight: bold;
+font-weight: 500;
 color: white;
-margin-bottom: 16px;
 
 }
 .phone_112 {
   background-color: #282d8b;
   padding: 24px;
   text-align: center;
-font-weight: bold;
+font-weight: 500;
 color: white;
-margin-bottom: 16px;
 
 }
 .phone_115 {
   background-color: #487f88;
   padding: 24px;
   text-align: center;
-font-weight: bold;
+font-weight: 500;
 color: white;
-margin-bottom: 16px;
 
 }
 
@@ -52,26 +49,23 @@ margin-bottom: 16px;
   background-color: #0077c3;
   padding: 24px;
   text-align: center;
-font-weight: bold;
+font-weight: 500;
 color: white;
-margin-bottom: 16px;
 
 }
 .phone_114 {
   background-color: #f98c31;
   padding: 24px;
   text-align: center;
-font-weight: bold;
+font-weight: 500;
 color: white;
-margin-bottom: 16px;
 
 }
 .sred {
   color: initial;
-  background-color: white;
+  background-color: #F1F2F6;
   padding: 24px;
   font-size: 14px;
-  margin-bottom: 16px;
 }
 .sred h1 {
   margin: 0;
