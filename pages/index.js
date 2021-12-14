@@ -37,7 +37,14 @@ export default function Home() {
       height={"50px"}
     />
             <section className={styles.welcome}>
-            <button className={styles.return} onClick={returnClick}>Sortir d’ici (Sans laisser de traces)</button>
+
+              <div>
+
+              <button className={styles.return} onClick={returnClick}>Sortir d’ici (Sans laisser de traces)</button>
+
+
+
+                </div>
               <h1> {"Département des Côtes-d'Armor"} </h1>
           <h2 className={styles.quote}>Signaler des violences intrafamiliales, sexistes et sexuelles</h2>
               </section>

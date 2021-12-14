@@ -16,8 +16,9 @@
   align-items: center;
 }
 .welcome {
-  color: black;
-  padding: 0;
+  background-color: #01161e;
+  color: white;
+  padding: 24px;
 
 }
 .phone_17 {
@@ -87,11 +88,14 @@
 }
 .sred h1 {
   margin: 0;
-  font-weight: 600;
+  font-weight: 500;
 }
 .quote {
-  text-transform: uppercase;
-  font-size: 21px;
+  font-size: 42px;
+  font-weight: 300;
+}
+.welcome h1 {
+  font-weight: 500;
 }
 .return {
   background-color: #01161e;
