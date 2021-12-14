@@ -23,17 +23,15 @@
 .phone_17 {
   background-color: #0B2740;
   padding: 24px;
-  text-align: center;
-font-weight: 500;
-color: white;
+  color: white;
+  display: flex;
 
 }
 .phone_112 {
   background-color: #282d8b;
   padding: 24px;
-  text-align: center;
-font-weight: 500;
-color: white;
+  color: white;
+  display: flex;
 
 }
 .phone_115 {
@@ -72,6 +70,9 @@ color: white;
   background: #ffffff0a;
   color: wheat;
 
+}
+.phone_card {
+  width: 100%;
 }
 .phone_card h1 {
   margin: 0;
