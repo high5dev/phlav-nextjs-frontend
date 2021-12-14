@@ -35,7 +35,7 @@ export default function Home() {
      
              
               <h1> {"Helpquit | Côtes-d'Armor"} </h1>
-          <h2 className={styles.quote}>Signaler des violences intrafamiliales, sexistes et sexuelles</h2>
+          <h2 className={styles.quote}>Signaler des violences conjugales, intrafamiliales, sexistes et sexuelles</h2>
               </section>
           <section className={styles.sred}><h1>{"Pour obtenir de l'aide en cas d'urgence (France)"}</h1></section>
 
