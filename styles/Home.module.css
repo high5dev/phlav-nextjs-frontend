@@ -70,6 +70,10 @@ font-size: 14px;
 .sred h1 {
   margin: 0;
 }
+.quote {
+  text-transform: uppercase;
+  font-size: 21px;
+}
 
 @media (max-width: 600px) {
   .grid {

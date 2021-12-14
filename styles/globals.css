@@ -1,11 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Poppins', sans-serif;
     background-color: #FFF;
     color: initial;
+    font-weight: normal;
 }
 
 a {
@@ -22,12 +23,12 @@ img {
 }
 .phlav_grid {
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 50% 50%;
   margin: 0 auto;
   gap: 0;
 }
 .div_2 {
-  background-color: #32086f;
+  border-left: 1px solid #DBDBDB;
 }
 
 @media (max-width: 600px) {
