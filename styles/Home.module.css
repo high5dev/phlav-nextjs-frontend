@@ -25,21 +25,21 @@
   padding: 24px;
   color: white;
   display: flex;
-
+  align-items: center;
 }
 .phone_112 {
   background-color: #084c61;
   padding: 24px;
   color: white;
   display: flex;
-
+  align-items: center;
 }
 .phone_115 {
   background-color: #487f88;
   padding: 24px;
   color: white;
   display: flex;
-
+  align-items: center;
 }
 
 .phone_15 {
@@ -47,14 +47,14 @@
   padding: 24px;
   color: white;
   display: flex;
-
+  align-items: center;
 }
 .phone_114 {
   background-color: #212c66;
   padding: 24px;
   color: white;
   display: flex;
-
+  align-items: center;
 }
 .sred {
   color: initial;
@@ -63,13 +63,15 @@
   font-size: 14px;
 }
 .call {
-  padding: 24px;
-  background: #ffffff0a;
+  padding: 0;
   color: wheat;
+  font-size: 24px;
 
 }
 .phone_card {
   width: 100%;
+  border-right: 1px solid #ffffff0f;
+  margin-right: 24px;
 }
 .phone_card h1 {
   margin: 0;
