@@ -97,9 +97,9 @@
     font-size: 16px;
     font-weight: 600;
     position: fixed;
-    top: 0;
-    min-height: auto;
-    color: black;
+    top: 0 !important;
+    min-height: 50px;
+    color: initial;
 
 }
 @media (max-width: 600px) {
