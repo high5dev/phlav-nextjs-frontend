@@ -21,7 +21,9 @@ export default function Home() {
           <div className="div_1">
 
             <section className={styles.welcome}>
-          <h1>Signaler les violences intrafamiliales, sexistes et sexuelles</h1>
+
+              <span> {"Côtes-d'Armor"} </span>
+          <h1>Signaler des violences intrafamiliales, sexistes et sexuelles</h1>
               </section>
           <section className={styles.sred}><h1>Urgence</h1></section>
 
