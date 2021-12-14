@@ -121,7 +121,7 @@ display: block;
     font-size: 28px;
 font-weight: 500;
 line-height: 42px;
-  }.welcome {
-    font-size: 16px;
+  }.welcome h1 {
+    font-size: 18px;
   }
 }
