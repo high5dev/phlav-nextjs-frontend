@@ -37,26 +37,23 @@
 .phone_115 {
   background-color: #487f88;
   padding: 24px;
-  text-align: center;
-font-weight: 500;
-color: white;
+  color: white;
+  display: flex;
 
 }
 
 .phone_15 {
   background-color: #0077c3;
   padding: 24px;
-  text-align: center;
-font-weight: 500;
-color: white;
+  color: white;
+  display: flex;
 
 }
 .phone_114 {
   background-color: #f98c31;
   padding: 24px;
-  text-align: center;
-font-weight: 500;
-color: white;
+  color: white;
+  display: flex;
 
 }
 .sred {
