@@ -118,7 +118,7 @@ display: block;
 }
 @media (max-width: 600px) {
   .quote {
-    font-size: 28px;
+    font-size: 24px;
 font-weight: 500;
 line-height: 42px;
   }.welcome h1 {
