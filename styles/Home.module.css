@@ -23,7 +23,7 @@
 
 }
 .phone_17 {
-  background-color: #061b2f;
+  background-color: #082061;
   padding: 24px;
   color: white;
   display: flex;
@@ -89,12 +89,13 @@ display: block;
 .sred {
   background-color: #061B2F;
   padding:  24px;
-  font-size: 16px;
+  font-size: 14px;
   color: white;
 }
 .sred h1 {
   margin: 0;
   font-weight: 300;
+  font-size: 18px;
 }
 .quote {
   font-size: 42px;
