@@ -1,15 +1,10 @@
 .container {
-  padding: 0 2rem;
+  padding: 0;
+  margin: 0;
 }
 
 .main {
-  min-height: 100vh;
-  padding: 4rem 0;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  display: block;
 }
 
 .footer {
@@ -20,92 +15,59 @@
   justify-content: center;
   align-items: center;
 }
-
-.footer a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-}
-
-.title a {
-  color: #0070f3;
-  text-decoration: none;
-}
-
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
-}
-
-.title {
-  margin: 0;
-  line-height: 1.15;
-  font-size: 4rem;
-}
-
-.title,
-.description {
+.phone_17 {
+  background-color: #0B2740;
+  padding: 24px;
   text-align: center;
-}
+font-weight: bold;
+color: white;
 
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
 }
+.phone_112 {
+  background-color: #282d8b;
+  padding: 24px;
+  text-align: center;
+font-weight: bold;
+color: white;
 
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
 }
+.phone_115 {
+  background-color: #487f88;
+  padding: 24px;
+  text-align: center;
+font-weight: bold;
+color: white;
 
-.grid {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
-  max-width: 800px;
 }
+.welcome {
+  color: white;
+  background-color: #db001d;
+  padding: 24px;
 
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
 }
+.phone_15 {
+  background-color: #0077c3;
+  padding: 24px;
+  text-align: center;
+font-weight: bold;
+color: white;
 
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
 }
+.phone_114 {
+  background-color: #f98c31;
+  padding: 24px;
+  text-align: center;
+font-weight: bold;
+color: white;
 
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
 }
-
-.card p {
+.sred {
+    color: white;
+    background-color: #db001d;
+    padding: 24px;
+}
+.sred h1 {
   margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
-}
-
-.logo {
-  height: 1em;
-  margin-left: 0.5rem;
 }
 
 @media (max-width: 600px) {
