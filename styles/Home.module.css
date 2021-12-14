@@ -89,17 +89,15 @@
   font-size: 21px;
 }
 .return {
-    background-color: white;
-    width: 100%;
-    padding: 28px;
-    color: white;
-    border: 0;
-    font-size: 16px;
-    font-weight: 600;
-    position: fixed;
-    top: 0 !important;
-    min-height: 50px;
-    color: initial;
+  background-color: white;
+  width: 100%;
+  padding: 28px;
+  border: 0;
+  font-size: 16px;
+  font-weight: 600;
+  position: fixed;
+  color: initial;
+  bottom: 0;
 
 }
 @media (max-width: 600px) {
