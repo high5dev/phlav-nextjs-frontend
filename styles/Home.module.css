@@ -89,14 +89,14 @@
   font-size: 21px;
 }
 .return {
-  background-color: white;
+  background-color: #223843;
   width: 100%;
   padding: 28px;
   border: 0;
   font-size: 16px;
   font-weight: 600;
   position: fixed;
-  color: initial;
+  color: white;
   bottom: 0;
 
 }
