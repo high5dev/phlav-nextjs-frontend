@@ -67,6 +67,16 @@ color: white;
   padding: 24px;
   font-size: 14px;
 }
+.call {
+  padding: 24px;
+  background: #ffffff0a;
+  color: wheat;
+
+}
+.phone_card h1 {
+  margin: 0;
+  padding: 0;
+}
 .sred h1 {
   margin: 0;
 }

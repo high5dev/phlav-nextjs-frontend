@@ -5,8 +5,9 @@ import styles from "../../../styles/Home.module.css";
 
 const Police = () => (
   <div  className={styles.phone_17}>
+    <span> Police · Gendarmerie</span>
     <Link href="/">
-      <a><PhoneOutlined /> Police · Gendarmerie</a>
+      <a className={styles.call}><PhoneOutlined /></a>
     </Link>
   </div>
 );
