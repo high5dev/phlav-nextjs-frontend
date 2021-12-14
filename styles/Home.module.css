@@ -56,12 +56,7 @@
   display: flex;
   align-items: center;
 }
-.sred {
-  color: initial;
-  background-color: #F1F2F6;
-  padding: 24px;
-  font-size: 14px;
-}
+
 .call {
   padding: 0;
   color: white;
@@ -79,10 +74,18 @@
   padding: 0;
 }
 .phone_card span {
-  font-weight: 500;
+  font-weight: normal;
+  
+}
+.sred {
+  background-color: #061B2F;
+  padding: 24px 24px 0 24px;
+  font-size: 14px;
+  color: white;
 }
 .sred h1 {
   margin: 0;
+  font-weight: 600;
 }
 .quote {
   text-transform: uppercase;
