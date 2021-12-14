@@ -24,10 +24,12 @@
 }
 .phone_17 {
   background-color: #061b2f;
-  padding: 8px 24px 24px 24px;
+  padding: 24px;
   color: white;
   display: flex;
+  -moz-box-align: center;
   align-items: center;
+  border-top: 1px solid #0C2135;
 }
 .phone_112 {
   background-color: #084c61;
@@ -74,16 +76,19 @@
 .phone_card h1 {
   margin: 0;
   padding: 0;
-  font-weight: 600;
+  font-weight: 300;
 
 }
 .phone_card span {
-  font-weight: normal;
+  font-size: 18px;
+font-weight: 300;
+margin: 4px 0;
+display: block;
   
 }
 .sred {
   background-color: #061B2F;
-  padding: 24px 24px 0 24px;
+  padding:  24px;
   font-size: 16px;
   color: white;
 }
@@ -96,7 +101,7 @@
   font-weight: 500;
 }
 .welcome h1 {
-  font-weight: 500;
+  font-weight: 300;
 }
 .return {
   background-color: #01161e;
