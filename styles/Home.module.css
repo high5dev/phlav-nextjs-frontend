@@ -75,6 +75,9 @@
   margin: 0;
   padding: 0;
 }
+.phone_card span {
+  font-weight: 500;
+}
 .sred h1 {
   margin: 0;
 }

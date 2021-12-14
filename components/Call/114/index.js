@@ -7,7 +7,7 @@ const Malentendants = () => (
 
     <div  className={styles.phone_114}>
     <div className={styles.phone_card}>
-    <h1>114 SMS</h1>
+    <h1>114</h1>
             <span>{"SMS, sourds et malentendants"}</span>
     </div>
     <Link href="/">
