@@ -29,6 +29,7 @@ img {
 } 
 .div_2 {
   border-left: 0;
+  background-color: #f1f2f6;
 }
 
 @media (max-width: 600px) {

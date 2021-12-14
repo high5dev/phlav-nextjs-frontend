@@ -9,7 +9,7 @@ const Bedroom = () => (
   <div  className={styles.phone_115}>
   <div className={styles.phone_card}>
   <h1>115</h1>
-          <span>{"Urgence sociale (Hébergement)"}</span>
+          <span>{"Appel d'urgence sociale, hébergement"}</span>
   </div>
   <Link href="/">
     <a className={styles.call}><PhoneOutlined /></a>
