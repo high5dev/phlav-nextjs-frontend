@@ -4,7 +4,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: 'Poppins', sans-serif;
-    background-color: #FFFFFF;
+    background-color: #f1f2f6;
     color: initial;
     font-weight: normal;
 }
@@ -29,7 +29,7 @@ img {
 } 
 .div_2 {
   border-left: 0;
-  background-color: #0b2740;
+  background-color: #f1f2f6;
 }
 
 @media (max-width: 600px) {

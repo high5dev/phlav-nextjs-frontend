@@ -21,7 +21,7 @@
 
 }
 .phone_17 {
-  background-color: #0B2740;
+  background-color: #061b2f;
   padding: 24px;
   color: white;
   display: flex;
@@ -88,7 +88,20 @@
   text-transform: uppercase;
   font-size: 21px;
 }
+.return {
+    background-color: white;
+    width: 100%;
+    padding: 24px;
+    color: white;
+    border: 0;
+    font-size: 16px;
+    font-weight: 600;
+    position: fixed;
+    top: -1px;
+    min-height: auto;
+    color: black;
 
+}
 @media (max-width: 600px) {
   .grid {
     width: 100%;
