@@ -64,8 +64,9 @@
 }
 .call {
   padding: 0;
-  color: wheat;
+  color: white;
   font-size: 24px;
+  margin-right: 12px;
 
 }
 .phone_card {
