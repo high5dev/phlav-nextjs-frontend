@@ -40,8 +40,8 @@ color: white;
 
 }
 .welcome {
-  color: white;
-  background-color: #000;
+  color: black;
+  background-color: #FFF;
   padding: 24px;
 
 }
@@ -62,9 +62,10 @@ color: white;
 
 }
 .sred {
-    color: white;
-    background-color: #db001d;
-    padding: 24px;
+  color: white;
+background-color: #b50027;
+padding: 24px;
+font-size: 14px;
 }
 .sred h1 {
   margin: 0;

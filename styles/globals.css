@@ -17,6 +17,9 @@ a {
   box-sizing: border-box;
 }
 
+img {
+  object-fit: contain;
+}
 .phlav_grid {
   display: grid;
   grid-template-columns: 40% 60%;
