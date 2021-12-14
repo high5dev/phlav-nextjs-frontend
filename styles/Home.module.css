@@ -5,6 +5,7 @@
 
 .main {
   display: block;
+  padding: 0 16px;
 }
 
 .footer {
@@ -14,12 +15,18 @@
   justify-content: center;
   align-items: center;
 }
+.welcome {
+  color: black;
+  padding: 0;
+
+}
 .phone_17 {
   background-color: #0B2740;
   padding: 24px;
   text-align: center;
 font-weight: bold;
 color: white;
+margin-bottom: 16px;
 
 }
 .phone_112 {
@@ -28,6 +35,7 @@ color: white;
   text-align: center;
 font-weight: bold;
 color: white;
+margin-bottom: 16px;
 
 }
 .phone_115 {
@@ -36,19 +44,17 @@ color: white;
   text-align: center;
 font-weight: bold;
 color: white;
+margin-bottom: 16px;
 
 }
-.welcome {
-  color: black;
-  padding: 24px;
 
-}
 .phone_15 {
   background-color: #0077c3;
   padding: 24px;
   text-align: center;
 font-weight: bold;
 color: white;
+margin-bottom: 16px;
 
 }
 .phone_114 {
@@ -57,13 +63,15 @@ color: white;
   text-align: center;
 font-weight: bold;
 color: white;
+margin-bottom: 16px;
 
 }
 .sred {
-  color: white;
-background-color: #b50027;
-padding: 24px;
-font-size: 14px;
+  color: initial;
+  background-color: white;
+  padding: 24px;
+  font-size: 14px;
+  margin-bottom: 16px;
 }
 .sred h1 {
   margin: 0;
