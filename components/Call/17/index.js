@@ -8,7 +8,7 @@ const Police = () => (
   <div  className={styles.phone_17}>
   <div className={styles.phone_card}>
   <h1>17</h1>
-          <span>{"Police · Gendarmerie"}</span>
+          <span>{"Gendarmerie nationale (Police)"}</span>
   </div>
   <Link href="/">
     <a className={styles.call}><PhoneOutlined /></a>

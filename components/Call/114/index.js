@@ -8,7 +8,7 @@ const Malentendants = () => (
     <div  className={styles.phone_114}>
     <div className={styles.phone_card}>
     <h1>114</h1>
-            <span>{"Appel d'urgence pour sourds et malentendants"}</span>
+            <span>{"Urgence (Sourds et malentendants)"}</span>
     </div>
     <Link href="/">
       <a className={styles.call}><PhoneOutlined /></a>

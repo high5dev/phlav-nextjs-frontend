@@ -7,7 +7,7 @@ const UrgenceEuropéen = () => (
     <div  className={styles.phone_112}>
     <div className={styles.phone_card}>
     <h1>112</h1>
-            <span>{"Numéro d'appel d'urgence"}</span>
+            <span>{"Urgence (Union européenne)"}</span>
     </div>
     <Link href="/">
       <a className={styles.call}><PhoneOutlined /></a>

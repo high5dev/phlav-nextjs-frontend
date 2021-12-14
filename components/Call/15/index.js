@@ -8,7 +8,7 @@ const Samu = () => (
   <div className={styles.phone_15}>
     <div className={styles.phone_card}>
       <h1>15</h1>
-      <span>{"Service d'aide médicale urgente (SAMU)"}</span>
+      <span>{"Urgence médicale (SAMU)"}</span>
     </div>
     <Link href="/">
       <a className={styles.call}>

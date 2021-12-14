@@ -32,7 +32,7 @@ export default function Home() {
     />
             <section className={styles.welcome}>
 
-              <h1> {"Côtes-d'Armor"} </h1>
+              <h1> {"Département des Côtes-d'Armor"} </h1>
           <h2 className={styles.quote}>Signaler des violences intrafamiliales, sexistes et sexuelles</h2>
               </section>
           <section className={styles.sred}><h1>{"Dans l'urgence"}</h1></section>
