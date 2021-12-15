@@ -17,8 +17,18 @@ a {
 
 * {
   box-sizing: border-box;
+  outline: none;
+  border: none;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+       appearance: none !important;
+       outline:0 !important;
+       outline:none !important;
 }
-
+select:focus {
+  box-shadow: none;
+  outline: none;
+}
 img {
   object-fit: contain;
 }
@@ -38,21 +48,35 @@ input {
   background: white;
   margin-bottom: 24px;
 }
+textarea {
 
+  outline: none;
+  border: none;
+}
 
-input, button, select {
-
+textarea:focus {
+    outline: none;
+}
+input:focus {
+  outline: none;
   -webkit-appearance: none !important;
   -moz-appearance: none !important;
        appearance: none !important;
-
+       outline:0 !important;
+       outline:none !important;
+}
+select:focus {
+  outline: none;
+  border: none;
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+       appearance: none !important;
+       outline:0 !important;
+       outline:none !important;
 }
 
-
 input:focus {
-  border-color: #007eff;
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
-    0 0 0 3px rgba(0, 126, 255, 0.1);
+
   outline: none;
 }
 
@@ -143,14 +167,8 @@ button.outline {
 .select select option[value=""][disabled] {
   display: none;
 }
-.select select:focus {
-  outline: none;
-  border-color: #07f;
-  box-shadow: 0 0 0 2px rgba(0,119,255,0.2);
-}
-.select select:hover + svg {
-  stroke: #07f;
-}
+
+
 .sprites {
   position: absolute;
   width: 0;
