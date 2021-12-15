@@ -33,19 +33,19 @@ export default function Home() {
 
               <div>
 
-              <Image
-      src="/hlpt_w.png"
-      className={styles.logo}
-      alt="Helpquit France"
-      width={48}
-      height={48}
-    />
+            
 
 
 
 
                 </div>
-              <h1> {"Helpquit | Côtes-d'Armor"} </h1>
+              <h1>  <Image
+      src="/hlpt_w.png"
+      className={styles.logo}
+      alt="Helpquit France"
+      width={32}
+      height={32}
+    /> {"Helpquit | Côtes-d'Armor"} </h1>
               <h2 className={styles.quote}>
                 Signaler des violences conjugales, intrafamiliales, sexistes et
                 sexuelles

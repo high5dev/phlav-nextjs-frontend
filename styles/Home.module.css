@@ -23,6 +23,12 @@
   border-bottom: 1px solid #0C2135;
 
 }
+.welcome h1 {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 .phone_17 {
   background-color: #082061;
   padding: 24px;
@@ -103,9 +109,7 @@ display: block;
   font-weight: 500;
   margin: 24px 0;
 }
-.welcome h1 {
-  font-weight: 300;
-}
+
 .return {
   background-color: #fff;
   border: 1px solid #fff;
