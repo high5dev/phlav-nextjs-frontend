@@ -22,10 +22,29 @@ export default function Home() {
         <meta name="theme-color" content="#061B2F"></meta>
       </Head>
 
+  
       <main className={styles.main}>
         <div className="phlav_grid">
+          
           <div className="div_1">
+ 
+
             <section className={styles.welcome}>
+
+              <div>
+
+              <Image
+      src="/hlpt_w.png"
+      className={styles.logo}
+      alt="Helpquit France"
+      width={48}
+      height={48}
+    />
+
+
+
+
+                </div>
               <h1> {"Helpquit | Côtes-d'Armor"} </h1>
               <h2 className={styles.quote}>
                 Signaler des violences conjugales, intrafamiliales, sexistes et
@@ -33,7 +52,7 @@ export default function Home() {
               </h2>
             </section>
             <section className={styles.sred}>
-              <h1>{"Pour obtenir de l'aide en cas d'urgence (France)"}</h1>
+              <h1>{"L'aide en cas d'urgence (France)"}</h1>
             </section>
 
             <Police />

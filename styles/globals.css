@@ -31,7 +31,9 @@ img {
   border-left: 0;
   background-color: #F7F8F7;
 }
-
+.logo {
+  margin: 24px 0;
+}
 @media (max-width: 600px) {
   .phlav_grid {
     display: block;
