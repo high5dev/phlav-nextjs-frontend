@@ -62,7 +62,16 @@ export default function Home() {
             <Malentendants />
           </div>
 
-          <div className="div_2"></div>
+          <div className="div_2">
+          <section className={styles.formbox}>
+
+            
+<h1> {"Demander de l'aide auprès des autorités, des association, et des services sociaux en Côtes-d'Armor."} </h1>
+<h2 className={styles.quote}>
+  Formulaire
+</h2>
+</section>
+          </div>
         </div>
       </main>
 

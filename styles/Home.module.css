@@ -29,6 +29,18 @@
   align-items: center;
   gap: 16px;
 }
+.formbox {
+  background-color: transparent;
+  color: white;
+  padding: 24px;
+  border-bottom: 1px solid #0C2135;
+}
+.formbox h1 {
+  font-weight: 300;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
 .phone_17 {
   background-color: #082061;
   padding: 24px;
