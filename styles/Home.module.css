@@ -27,13 +27,14 @@
   font-weight: 300;
   display: flex;
   align-items: center;
-  gap: 16px;  padding: 24px 0;
-
+  gap: 16px;  
+  padding: 0 0 24px 0;
+  margin-top: 0;
 }
 .formbox {
   background-color: transparent;
   color: white;
-  padding: 24px;
+  padding: 64px;
   border-bottom: 1px solid #fffffff0;
 }
 .formbox h1 {
@@ -152,5 +153,6 @@ line-height: 36px;
     font-size: 21px;
   }.formbox {
     font-size: 18px;
+    padding: 24px;
   }
 }
