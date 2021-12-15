@@ -23,6 +23,28 @@
   border-bottom: 1px solid #fffffff0;
 
 }
+.welcome p {
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.formbox h1  {
+  font-weight: 300;
+display: -moz-box;
+display: flex;
+-moz-box-align: center;
+align-items: center;
+grid-gap: 16px;
+gap: 16px;
+padding: 0 0 24px 0;
+margin-top: 0;
+}
+.formbox p {
+  font-size: 18px;
+font-weight: 300;
+margin: 4px 0;
+display: block;
+}
 .welcome h1 {
   font-weight: 300;
   display: flex;
@@ -134,7 +156,7 @@ display: block;
   font-weight: 600;
   position: fixed;
   margin-bottom: -1px !important;
-  color: #061b2f;
+  color: #082061;
   bottom: 0;
 
 }
@@ -153,6 +175,6 @@ line-height: 36px;
     font-size: 21px;
   }.formbox {
     font-size: 18px;
-    padding: 24px;
+    padding: 64px 24px;
   }
 }

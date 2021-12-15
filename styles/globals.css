@@ -33,30 +33,35 @@ img {
   object-fit: contain;
 }
 
-textarea {
-  width: 100%;
-  border: 0 !important;
-  margin-bottom: 24px;
-}
 input {
-  padding: 16px;
+  padding: 18px;
   font-size: 16px;
   width: 100%;
   display: block;
   border-radius: 0;
   border: 1px solid white;
-  background: white;
+  background: #fff0;
   margin-bottom: 24px;
+  border-radius: 0;
+  color: white;
+  opacity: 1;
+
 }
 textarea {
-
-  outline: none;
-  border: none;
+  padding: 18px;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  border-radius: 0;
+  border: 1px solid white;
+  background: #fff0;
+  margin-bottom: 24px;
+  border-radius: 0;
+  color: white;
+  opacity: 1;
 }
 
-textarea:focus {
-    outline: none;
-}
+
 input:focus {
   outline: none;
   -webkit-appearance: none !important;
@@ -103,7 +108,7 @@ label {
 }
 
 button {
-  padding: 24px 32px;
+  padding: 24px;
   border-style: none;
   border-radius: 0;
   background-color: #FFF;
@@ -115,6 +120,8 @@ button {
   -webkit-appearance: none;
   display: block;
   width: 100%;
+  border-radius: 0;
+
 }
 
 button:disabled {
@@ -150,13 +157,18 @@ button.outline {
   pointer-events: none;
 }
 .select select {
-  padding: 16px;
+  padding: 18px;
   font-size: 16px;
   width: 100%;
   display: block;
   border-radius: 0;
   border: 1px solid white;
-  background: white;
+  background: #fff0;
+  margin-bottom: 24px;
+  border-radius: 0;
+  color: white;
+  opacity: 1;
+
 }
 .select select:required:invalid {
   color: #5a667f;
@@ -185,7 +197,7 @@ button.outline {
 } 
 .div_2 {
   border-left: 0;
-  background-color: #082061;
+  background-color: #04395e;
 }
 
 @media (max-width: 600px) {

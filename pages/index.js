@@ -59,6 +59,8 @@ export default function Home() {
                 Signaler des violences conjugales, intrafamiliales, sexistes et
                 sexuelles
               </h2>
+              <p> {"Demander de l'aide auprès des autorités, des association, et des services sociaux en Côtes-d'Armor."} </p>
+
             </section>
             <section className={styles.sred}>
               <h1>{"L'aide en cas d'urgence (France)"}</h1>
@@ -75,10 +77,9 @@ export default function Home() {
           <section className={styles.formbox}>
 
             
-<h1 className={styles.quote}>
+<h1 >
   Formulaire
 </h1>
-<p> {"Demander de l'aide auprès des autorités, des association, et des services sociaux en Côtes-d'Armor."} </p>
 <RepportForm />
 </section>
           </div>
