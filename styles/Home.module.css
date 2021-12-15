@@ -20,7 +20,7 @@
   background-color: #082061;
   color: white;
   padding: 64px;
-  border-bottom: 1px solid #fffffff0;
+  border-bottom: 1px solid #ffffff1f;
 
 }
 .welcome p {
@@ -57,7 +57,6 @@ display: block;
   background-color: transparent;
   color: white;
   padding: 64px;
-  border-bottom: 1px solid #fffffff0;
 }
 .formbox h1 {
   font-weight: 300;
@@ -72,7 +71,7 @@ display: block;
   display: flex;
   -moz-box-align: center;
   align-items: center;
-  border-top: 1px solid #fffffff0;
+  border-top: 1px solid #ffffff1f;
 }
 .phone_112 {
   background-color: #084c61;
@@ -113,7 +112,7 @@ display: block;
 }
 .phone_card {
   width: 100%;
-  border-right: 1px solid #fffffff0;
+  border-right: 1px solid #ffffff1f;
   margin-right: 24px;
 }
 .phone_card h1 {
