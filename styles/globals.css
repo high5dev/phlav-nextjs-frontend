@@ -7,6 +7,7 @@ body {
     background-color: #f1f2f6;
     color: initial;
     font-weight: normal;
+
 }
 
 a {
@@ -21,6 +22,70 @@ a {
 img {
   object-fit: contain;
 }
+
+
+input {
+  padding: .5rem;
+  font-size: 16px;
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+input:focus {
+  border-color: #007eff;
+  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+    0 0 0 3px rgba(0, 126, 255, 0.1);
+  outline: none;
+}
+
+input.error {
+  border-color: red;
+}
+
+label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: .5rem;
+}
+
+.input-feedback {
+  color: red;
+  margin-top: .25rem;
+}
+
+button {
+  padding: 24px 32px;
+  border-style: none;
+  border-radius: 0;
+  background-color: #FFF;
+  font-size: 16px;
+  font-weight: 600;
+  color: initial;
+  cursor: pointer;
+  outline: none;
+  -webkit-appearance: none;
+  display: block;
+  width: 50%;
+}
+
+button:disabled {
+  opacity: .5;
+  cursor: not-allowed !important;
+}
+
+button + button {
+  margin-left: .5rem;
+}
+
+button.outline {
+  background-color: #eee;
+  border: 1px solid #aaa;
+  color: #555;
+}
+
+
 .phlav_grid {
   display: grid;
   grid-template-columns: 50% 50%;
