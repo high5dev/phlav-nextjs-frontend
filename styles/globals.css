@@ -96,9 +96,7 @@ button.outline {
   border-left: 0;
   background-color: #082061;
 }
-.logo {
-  margin: 24px 0;
-}
+
 @media (max-width: 600px) {
   .phlav_grid {
     display: block;

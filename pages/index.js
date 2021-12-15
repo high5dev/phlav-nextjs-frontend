@@ -52,8 +52,8 @@ export default function Home() {
       src="/hlpt_w.png"
       className={styles.logo}
       alt="Helpquit France"
-      width={32}
-      height={32}
+      width={38}
+      height={38}
     /> {"Helpquit | Côtes-d'Armor"} </h1>
               <h2 className={styles.quote}>
                 Signaler des violences conjugales, intrafamiliales, sexistes et
