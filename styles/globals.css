@@ -23,7 +23,11 @@ img {
   object-fit: contain;
 }
 
-
+textarea {
+  width: 100%;
+  border: 0 !important;
+  margin-bottom: 24px;
+}
 input {
   padding: 16px;
   font-size: 16px;
@@ -32,7 +36,18 @@ input {
   border-radius: 0;
   border: 1px solid white;
   background: white;
+  margin-bottom: 24px;
 }
+
+
+input, button, select {
+
+  -webkit-appearance: none !important;
+  -moz-appearance: none !important;
+       appearance: none !important;
+
+}
+
 
 input:focus {
   border-color: #007eff;
@@ -44,11 +59,11 @@ input:focus {
 input.error {
   border-color: red;
 }
-
 label {
-  font-weight: bold;
+  font-weight: 300;
   display: block;
-  margin-bottom: .5rem;
+  margin-bottom: 12px;
+  font-size: 18px;
 }
 .PhoneInputInput {
   -moz-box-flex: 1;
@@ -75,7 +90,7 @@ button {
   outline: none;
   -webkit-appearance: none;
   display: block;
-  width: 50%;
+  width: 100%;
 }
 
 button:disabled {
