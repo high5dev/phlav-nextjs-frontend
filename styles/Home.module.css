@@ -24,10 +24,11 @@
 
 }
 .welcome p {
-  font-size: 18px;
-  line-height: 32px;
+  font-size: 21px;
+  line-height: 36px;
   font-weight: 300;
 }
+
 .formbox h1  {
   font-weight: 300;
 display: -moz-box;
@@ -39,12 +40,7 @@ gap: 16px;
 padding: 0 0 24px 0;
 margin-top: 0;
 }
-.formbox p {
-  font-size: 18px;
-font-weight: 300;
-margin: 4px 0;
-display: block;
-}
+
 .welcome h1 {
   font-weight: 300;
   display: flex;
@@ -169,11 +165,10 @@ font-weight: 500;
 line-height: 36px;
   }
   .welcome {
-    padding: 24px;
+    padding: 64px 24px;
   }.welcome h1 {
     font-size: 21px;
   }.formbox {
     font-size: 18px;
-    padding: 64px 24px;
   }
 }
