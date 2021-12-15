@@ -1,7 +1,10 @@
-import React from "react";
+import  {React, useState} from "react";
 import { Field, useFormik } from "formik";
+import 'react-phone-number-input/style.css'
+import PhoneInput from 'react-phone-number-input'
 
 const RepportForm = () => {
+  const [value, setValue] = useState()
   const formik = useFormik({
     initialValues: {
       lastname: "",
@@ -27,13 +30,16 @@ const RepportForm = () => {
         value={formik.values.lastname}
       />
 
-      <label htmlFor="concerning">Téléphone</label>
-
+      <label htmlFor="phone">Téléphone</label>
+      <PhoneInput
+      defaultCountry="FR"
+  value={value}
+  onChange={setValue} />
       <label htmlFor="type">Type</label>
       <select
         id="type"
         name="type"
-        as="select"
+        type="select"
         onChange={formik.handleChange}
         value={formik.values.type}
       >
