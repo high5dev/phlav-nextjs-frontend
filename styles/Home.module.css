@@ -17,10 +17,10 @@
   align-items: center;
 }
 .welcome {
-  background-color: #061B2F;
+  background-color: #082061;
   color: white;
   padding: 24px;
-  border-bottom: 1px solid #0C2135;
+  border-bottom: 1px solid #ffffff0f;
 
 }
 .welcome h1 {
@@ -33,7 +33,7 @@
   background-color: transparent;
   color: white;
   padding: 24px;
-  border-bottom: 1px solid #0C2135;
+  border-bottom: 1px solid #ffffff0f;
 }
 .formbox h1 {
   font-weight: 300;
@@ -48,7 +48,7 @@
   display: flex;
   -moz-box-align: center;
   align-items: center;
-  border-top: 1px solid #0C2135;
+  border-top: 1px solid #ffffff0f;
 }
 .phone_112 {
   background-color: #084c61;
@@ -106,7 +106,7 @@ display: block;
   
 }
 .sred {
-  background-color: #061B2F;
+  background-color: #082061;
   padding:  24px;
   font-size: 14px;
   color: white;
@@ -142,5 +142,7 @@ font-weight: 500;
 line-height: 36px;
   }.welcome h1 {
     font-size: 21px;
+  }.formbox {
+    font-size: 18px;
   }
 }
